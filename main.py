@@ -6,11 +6,7 @@ if __name__ == "__main__":
 
     conf= get_spark_app_config()
     spark = SparkSession.builder.config(conf=conf).getOrCreate()
-
-
-
-
-
+    print("hidvgfde")
 
 
 
